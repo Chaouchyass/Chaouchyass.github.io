@@ -13,7 +13,6 @@ function myFunction() {
       alert("Your booking with #OurStylist has been confirmed You will get a reminder before your appointment.");  
       alert(" An e-mail with your appointment details has been sent to your adress");
       document.getElementById('appointmentForm').reset();
-      // Your code goes here
     } 
     else {
       alert("Please fill in all fields.");
