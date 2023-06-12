@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    /* 1rem = 10px */
+}
+
+body{
+    overflow-x: hidden;
+}
+main{
+    margin: 0 7rem 0 7rem;
+}
+.container-fluid{
+    padding: 25px;
+}
+.navbar-brand{
+    font-size: x-large;
+    margin-right: 30px;
+    margin-left: 20px;
+   
+}
+.nav-item a{
+    font-size: x-large;
+ 
+    
+}
+ .nav-item a{
+   margin-left: 100px;
+   color: #c52727 !important;
+   font-weight: 450;
+   
+}
+
+   .nav-item a:hover {
+    color: #650909 !important
+    /* Change the color to your desired hover color */
+}
+
+
+.btn{
+    text-decoration: none;
+    padding: 10px;
+    margin-top: -10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #54b649;  
+    color: white;
+    font-size: x-large;
+    outline: none;
+}
+.btn :hover{
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Cover image section */
+.cover_img img{
+    width: 101%;
+    height: 50rem;
+}
+/**********************About Section********************/
+.about-section h1{
+    text-align: center;
+    font-size: 5rem;
+    color: rgb(234, 126, 126);
+    padding: 5rem;
+}
+.about{
+    display: flex;
+}
+.image img{
+    width: 600px;
+    height: 450px;
+    border-radius: 25px;
+}
+hr{
+ margin: 40px
+}
+.about_details{
+    margin-top: 0rem;
+    font-size: 3rem;
+
+}
+.about_details h2{
+    font-size: 4rem;
+}
+
+.about_details p{
+    margin-top: 15px;
+    text-align: justify;
+    font-size: 30px;
+}
+
+/******************Service Section start*******************/
+.our_service_section h1{
+    text-align: center;
+    font-size: 5rem;
+    color: rgb(234, 126, 126);
+    padding: 5rem;
+}
+.services{
+    display: flex;
+    
+}
+.data{
+    display: flex;
+    padding: 15px;
+   
+}
+ h2{
+    font-size: 4rem;
+}
+.left p{
+    font-size:27px;
+}
+.price{
+    margin-left: 10rem;
+}
+.service_images{
+    display: flex;
+    margin: 5rem 0 0 0;
+    justify-content: space-evenly;
+  
+}
+.service_images img{
+    width: 690px;
+    height: 400px;
+}
+
+
+.Stylists_section h1{
+    text-align: center;
+    font-size: 5rem;
+    color: rgb(234, 126, 126);
+    padding: 5rem;
+}
+.Stylists{
+    display: flex;
+    justify-content: space-around;
+
+}
+.artist{
+    border: 2px solid gray;
+    padding: 10px;
+}
+.artist img{
+    width: 400px;
+    height: 300px;
+    
+}
+
+.artist h2{
+    text-align: center;
+    padding: 3rem;
+}
+.artist p{
+    font-size: xx-large;
+}
+.btn_booknow{
+    border: none;
+    font-size: 25px;
+    padding: 2rem 6rem 2rem 6rem;
+    color: rgb(223, 86, 86);
+    margin: 5rem;
+    border-radius: 30px;
+    border: 1px solid red;
+    transition: background-color 0.5s ease, color 0.6s ease;
+}
+.btn_booknow:hover{
+color: #490101;
+background-color: rgb(225, 173, 173);
+cursor: pointer;
+    
+}
+
+/******* Service Images Section  */
+.service_images{
+    display: flex;
+    margin: 5rem 0 0 0;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+  
+}
+.service_images img{
+    width: 690px;
+    height: 400px;
+
+}
+
+/* ********Our stlyish section css*/
+.Stylists{
+    display: flex;
+}
+.card-title{
+    text-align: center;
+    padding: 15px 0 15px 0;
+}
+.card-text{
+    font-size: 25px;
+    text-align: center;
+}
+.card-body a{
+    position: relative;
+    align-items: center;
+    text-align: center;
+    margin: 2rem 0 2rem 13rem;
+}
+
+/*-------contact section -------------*/
+.contact_section h1{
+    
+    text-align: center;
+    font-size: 5rem;
+    color: rgb(234, 126, 126);
+    padding: 5rem;
+}
+.contact{
+    display: flex;
+  justify-content: space-evenly;
+    font-size: large;
+}
+.address_phone{
+    display: flex;
+    gap: 3rem;
+}
+.address_phone p{
+    background-color: #aec7ab;
+    padding: 11px;
+    font-size: xx-large;
+    
+}
+.address_phone p span{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+  
+}
+.map {
+    margin-top: 30px;
+
+  
+    text-align: justify;
+    font-size: 25px;
+}
+.secdule{
+    display: flex;
+    justify-content: space-between;
+}
+.contact_right h2{
+    font-size: 7rem;
+}
+.secdule p{
+    font-size: 3rem;
+    padding: 5px;
+}
+
+
+/* -***-----Book An Apoinment Seciton *************/
+.appointment_section h1{
+    text-align: center;
+    font-size: 5rem;
+    color: rgb(234, 126, 126);
+    padding: 10rem;
+}
+
+/* Form container */
+#appointmentForm {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  /* Form fields */
+  label {
+    display: block;
+    margin: 10px;
+    font-size: 25px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  select,
+  input[type="date"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: large;
+  }
+  
+  select {
+    height: 60px; /* Adjust the height as needed */
+  }
+  
+  /* Submit button */
+   .appointment_section button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: x-large;
+    margin-top: 2rem;
+  }
+  button:hover{
+    background-color: #019e06;
+    color: #f9f4fc;
+  }
+   /* Footer sections ***********/
+
+   footer {
+    background-color: #c1e1ed;
+    padding: 20px;
+    text-align: center;
+    margin-top: 5rem;
+  
+  }
+  
+  .footer-container {
+    max-width: 960px;
+    margin: 0 auto;
+    width: 100%
+  }
+  .footer-container p{
+    font-size: large;
+  }
+  
+  
+  /* Mobile responsiveness */
+  @media only screen and (max-width: 600px) {
+    #appointmentForm {
+      max-width: 100%;
+    }
+  
+    input[type="text"],
+    input[type="email"],
+    select,
+    input[type="date"] {
+      margin-right: 0;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .Stylists{
+        display: flex;
+        flex-direction: column;
+    }
+ 
+ 
+}
+  
+  
+
