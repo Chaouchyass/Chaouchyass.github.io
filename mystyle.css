@@ -36,7 +36,6 @@ main{
 
    .nav-item a:hover {
     color: #650909 !important
-    /* Change the color to your desired hover color */
 }
 
 
@@ -99,7 +98,7 @@ hr{
     font-size: 30px;
 }
 
-/******************Service Section start*******************/
+/******************Service Section *******************/
 .our_service_section h1{
     text-align: center;
     font-size: 5rem;
@@ -195,7 +194,7 @@ cursor: pointer;
 
 }
 
-/* ********Our stlyish section css*/
+/* ********Our stlyist section css*/
 .Stylists{
     display: flex;
 }
@@ -263,7 +262,7 @@ cursor: pointer;
 }
 
 
-/* -***-----Book An Apoinment Seciton *************/
+/* -***-----Book An Appointment Section *************/
 .appointment_section h1{
     text-align: center;
     font-size: 5rem;
@@ -297,7 +296,7 @@ cursor: pointer;
   }
   
   select {
-    height: 60px; /* Adjust the height as needed */
+    height: 60px; 
   }
   
   /* Submit button */
@@ -317,7 +316,7 @@ cursor: pointer;
     background-color: #019e06;
     color: #f9f4fc;
   }
-   /* Footer sections ***********/
+   /* Footer section ***********/
 
    footer {
     background-color: #c1e1ed;
