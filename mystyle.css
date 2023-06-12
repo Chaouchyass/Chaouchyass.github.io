@@ -36,7 +36,7 @@ main{
 
    .nav-item a:hover {
     color: #650909 !important
-    /* Change the color to your desired hover color */
+    
 }
 
 
@@ -263,7 +263,7 @@ cursor: pointer;
 }
 
 
-/* -***-----Book An Apoinment Seciton *************/
+/* -***-----Book An Apoinment Section *************/
 .appointment_section h1{
     text-align: center;
     font-size: 5rem;
@@ -297,7 +297,7 @@ cursor: pointer;
   }
   
   select {
-    height: 60px; /* Adjust the height as needed */
+    height: 60px; 
   }
   
   /* Submit button */
